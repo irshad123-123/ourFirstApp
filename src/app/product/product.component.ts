@@ -3,10 +3,10 @@ import { profile } from "console";
 
 @Component({
     selector:'app-product',
-    templateUrl:'./product.componant.html',
-    styleUrls : ['./product.companant.scss']
+    templateUrl:'./product.component.html',
+    styleUrls : ['./product.companent.scss']
 })
-export class ProductComponant{
+export class ProductComponent{
     productName:string='OPPO f19'
     productId : string = 'D-123'
     UserInfo = {

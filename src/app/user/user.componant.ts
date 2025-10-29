@@ -2,9 +2,9 @@ import { Component } from "@angular/core";
 
 @Component({
     selector:'app-user',
-    templateUrl:'./user.componant.html',
-    styleUrls :['./user.componant.scss']
+    templateUrl:'./user.component.html',
+    styleUrls :['./user.component.scss']
 })
-export class UserComponant{
+export class UserComponent{
     skills : Array<string>=['HTML', 'CSS', 'JS', 'Rxjs', 'Ngrx']
 }
