@@ -4,7 +4,7 @@ import { profile } from "console";
 @Component({
     selector:'app-product',
     templateUrl:'./product.component.html',
-    styleUrls : ['./product.companent.scss']
+    styleUrls : ['./product.component.scss']
 })
 export class ProductComponent{
     productName:string='OPPO f19'
